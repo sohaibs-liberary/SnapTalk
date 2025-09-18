@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from './Section/Header'
+import Search from './Section/Search'
 import Chatlist from './Section/Chatlist'
 const Allchats = () => {
   return (
     
     <>
     <div className="Allchats">
-      <div  className="bg-slate-900 w-[440px] ">
+      <div  className="bg-slate-900 w-[440px]">
         <Header />
-      <Chatlist /></div>
+        <Search />
+        <Chatlist />
+      </div>
        
     </div>
     </>

@@ -9,7 +9,7 @@ const App = () => {
    <div className="snaptalk">
     <div className="flex justify-between">
       <Allchats className=''/>
-      <Chatsdetail className='bg-slate-500'/>
+      <Chatsdetail className=''/>
     </div>
 
 
