@@ -7,7 +7,7 @@ const Allchats = () => {
     
     <>
     <div className="Allchats">
-      <div  className="bg-slate-950  w-[440px]">
+      <div  className="bg-slate-950   w-[440px]">
         <Header />
         <Search />
         <Chatlist />

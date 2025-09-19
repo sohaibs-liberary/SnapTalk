@@ -5,8 +5,8 @@ const Chatdetail = () => {
   return (
     
     <>
-    <div className="Chatdetail hidden lg-block">
-      <div className="bg-slate-700 w-[990px]">
+    <div className="Chatdetail hidden lg:block">
+      <div className="bg-slate-800 w-[990px]">
       <Header />
       <Chatlist />
       </div>
