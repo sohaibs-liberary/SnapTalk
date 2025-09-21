@@ -36,7 +36,7 @@ const Chatlist = () => {
 
   return (
     <div className="chatslist">
-      <div className="chats p-10 m-2">
+      <div className="chats p-10 m-2 py-36">
         {data.map(chat => (
           <div key={chat.id} className="flex gap-6 hover:bg-slate-900 py-2 px-5  rounded-xl" >
             <div className="img flex justify-center">

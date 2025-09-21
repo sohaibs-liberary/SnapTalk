@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa' // Font Awesome search icon
 const Search = () => {
   return (
     <>
-      <div className="Search">
+      <div className="Search ">
         <div className="flex justify-center py-2">
           <div className="relative w-full max-w-80">
             <input

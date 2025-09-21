@@ -5,10 +5,12 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="Header flex justify-between items-center px-11">
+    <div className="Header flex justify-between lg:gap-28 gap-36 items-center px-12">
       {/* Logo */}
       <div className="Logo p-5">
+        <a href="">
         <h1 className="font-bold text-2xl text-white font-sans">SnapTalk</h1>
+        </a>
       </div>
 
       {/* Menu */}
