@@ -3,14 +3,24 @@ import DP from "/src/assets/icon-7797704_640.png";
 
 const Chatlist = ({ messages }) => {
   return (
-    <div className="chatsdetail my-16 p-6 min-h-[420px] max-h-[440px] overflow-y-auto custom-scroll grid">
+    <div className="chatsdetail my-16 p-6 min-h-[420px] max-h-[440px] overflow-y-auto custom-scroll space-y-3">
       {messages.map((msg, idx) => (
-        <div key={idx} className="messages flex gap-6 p-2 items-center">
-          <div className="dp">
-            <img src={DP} alt="DPimg" className="w-10 rounded-full" />
-          </div>
-          <div className="text">
-            <h1 className="text-white">{msg}</h1>
+        <div key={idx} className="flex items-end gap-2">
+          {/* Profile picture */}
+          <img src={DP} alt="DP" className="w-8 h-8 rounded-full self-end" />
+
+          {/* Bubble with proper tail */}
+          <div
+            className="
+              relative bg-gray-700 text-white text-sm px-4 py-2
+              max-w-[70%] break-words
+              rounded-2xl rounded-bl-none
+              after:content-[''] after:absolute after:-left-2 after:bottom-1
+              after:border-8 after:border-transparent
+              after:border-r-gray-700
+            "
+          >
+            {msg}
           </div>
         </div>
       ))}

@@ -56,7 +56,7 @@ const Header = () => {
                 <div className="message text-gray-500">{chat.active}</div>
               </div>
             </div>
-            <div className="info fex justify-center p-8">
+            <div className="info flex justify-center p-8">
               <MdInfo className="text-white text-2xl " />
 
             </div>
